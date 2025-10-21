@@ -17,7 +17,7 @@ begin
   write('Jumlah telur (3000) : ');
   readln(jtelur);
 
-  total := (jminyak*20000) + (jberas*15000) + (jgula*12000) + (jkecap*10000) + (jtelur*25000);
+  total := (jminyak*20000) + (jberas*25000) + (jgula*18000) + (jkecap*15000) + (jtelur*3000);
   writeln('Total harga sebelum potongan dan pajak : Rp', total:0:0);
 
  
@@ -74,3 +74,4 @@ begin
   readln;
 
 end.
+
