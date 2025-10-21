@@ -6,15 +6,15 @@ var
   status, metode: string;
 begin
   clrscr;
-  write('Jumlah minyak goreng : ');
+  write('Jumlah minyak goreng (20000) : ');
   readln(jminyak);
-  write('Jumlah beras : ');
+  write('Jumlah beras (25000) : ');
   readln(jberas);
-  write('Jumlah gula : ');
+  write('Jumlah gula (18000) : ');
   readln(jgula);
-  write('Jumlah kecap : ');
+  write('Jumlah kecap (15000) : ');
   readln(jkecap);
-  write('Jumlah telur : ');
+  write('Jumlah telur (3000) : ');
   readln(jtelur);
 
   total := (jminyak*20000) + (jberas*15000) + (jgula*12000) + (jkecap*10000) + (jtelur*25000);
@@ -72,4 +72,5 @@ begin
   writeln('Total yang harus dibayar: Rp', total:0:0);
   writeln('Terima kasih.');
   readln;
+
 end.
